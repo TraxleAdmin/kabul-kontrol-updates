@@ -4,7 +4,7 @@ Kabul Kontrol ve Olympos Ekran Tanısı için imzalı güncelleme kanalı ve Win
 
 | Uygulama | Sürüm | İndir |
 |---|---|---|
-| Kabul Kontrol | 0.6.0 | [ZIP indir](https://github.com/TraxleAdmin/kabul-kontrol-updates/releases/download/v0.6.0/KabulKontrol-Windows-x64-0.6.0.zip) |
+| Kabul Kontrol | 0.7.0 | [ZIP indir](https://github.com/TraxleAdmin/kabul-kontrol-updates/releases/download/v0.7.0/KabulKontrol-Windows-x64-0.7.0.zip) |
 | Olympos Ekran Tanısı | 0.2.0 | [ZIP indir](https://github.com/TraxleAdmin/kabul-kontrol-updates/releases/download/v0.2.0-probe/Olympos-Ekran-Tanisi-Windows-x64-0.2.0.zip) |
 
 ## İlk kurulum
@@ -32,3 +32,9 @@ Otomatik föy başlangıçta kapalıdır; numara kaynağı varsayılan Kayıt No
 Varsayılan kayıt yalnız iki kaynağın kapsamı/alanları onaylanmış ve karşılaştırması uyumlu kayıtlarda yapılır. Eksik veya belirsiz kabul tarihi, firma ya da seçilen numara varsa **Föy Alanları** ile kaynak üzerinden doğrulayın ve yeniden onaylayıp karşılaştırın. Aynı günlük dosyada tekrarlanan kayıt eklenmez; çelişen kayıt üzerine yazılmaz. Mevcut dosya değiştirilmeden önce yedek alınır. Föy Excel/LibreOffice’te açıksa kapatıp yeniden karşılaştırın. Başarılı föy kaydı uygulamada ayrıca gösterilir.
 
 Belge numarasının önekindeki I/1 veya O/0 şüphesinde bağımsız alan okuması kullanılır. İki okuma uyuşmazsa numara doğrulanmış sayılmaz; kullanıcı incelemesi gerekir. SH1 gibi geçerli bir önek körlemesine SHI yapılmaz.
+
+## 0.7.0 okuma kontrolleri
+
+Düşük güvenli belge numarası, barkod ve miktar hücreleri hedefli olarak yeniden okunur. Tarihler ilgili etiketin önceliğiyle seçilir; çelişen veya doğrulanamayan değerler bilinmiyor kalır. Geçersiz standart GTIN kontrol rakamı kullanıcı kapsam onayıyla geçerli sayılmaz. Aynı barkod ve birim altındaki farklı ürün adlarının eşit toplamları tek başına uyum kanıtı değildir. İlk OCR güveni ve kanıtı kullanıcı onayından ayrı korunur; güven puanı doğruluk yüzdesi değildir.
+
+569 birim testi ve sağlayıcı/insan onayları simüle edilen 12 yerel Tk senaryosu geçti. Son EXE’de bir işleme ait iki gerçek fotoğrafta önceden belirlenmiş 46 sayı/barkod/tarih alanı doğru okundu. Önceki sürüm de aynı küçük referansta doğruydu; bu kontrol gerileme olmadığını gösterir, genel doğruluk yüzdesini kanıtlamaz. Tam ürün adları ve görünmeyen sayfalar bu ölçüme dahil değildir. Sorun çıkan gerçek belgelerle daha geniş doğrulama gerekir.
