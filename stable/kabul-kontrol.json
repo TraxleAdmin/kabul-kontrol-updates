@@ -2,16 +2,16 @@
   "payload": {
     "schema_version": 1,
     "product_id": "kabul-kontrol",
-    "version": "0.7.0",
+    "version": "0.7.1",
     "platform": "windows-x64",
-    "url": "https://github.com/TraxleAdmin/kabul-kontrol-updates/releases/download/v0.7.0/KabulKontrol-Windows-x64-0.7.0.zip",
-    "sha256": "d53c0dc3e4238d6fa925efc5103e4ad4420c6cbfcf397c5abdfd5fb7531d732c",
-    "size": 202287839,
-    "exe_sha256": "757287bbd45f40f791dc2cf0347825a47d3bbf0503f4917c64aaa358058000bd",
-    "files_sha256": "4b088b09b95393d83b9aff120e126e931a4647a35ecb32b770512a756eea04a7",
-    "notes": "Okuma güveni, hedefli alan tekrarı, tarih önceliği ve barkod doğrulama kontrolleri güçlendirildi. Genel doğruluk oranı henüz kanıtlanmadı.",
-    "published_at": "2026-11-07T15:12:50.113428+00:00"
+    "url": "https://github.com/TraxleAdmin/kabul-kontrol-updates/releases/download/v0.7.1/KabulKontrol-Windows-x64-0.7.1.zip",
+    "sha256": "d253941e0bdf2ba8c52af13a9ef118596dbc7a83f79309475f308f77a0009609",
+    "size": 202293263,
+    "exe_sha256": "0a52917ec9305ca65033b1894a23dec5976921a7adb858f15771cf923a632bed",
+    "files_sha256": "d8960f4c4e5c01a6f1ae3f506629f4938ce475ed4004161996a175874edfde2a",
+    "notes": "Otomatik föy: metadata düzenlemesinde ürün eşleştirmeleri korunur, seçilen numara uyarıları doğru değerlendirilir ve yazılmama nedeni ekranda kalır.",
+    "published_at": "2026-11-07T17:22:47.254105+00:00"
   },
   "key_id": "kabul-kontrol-ed25519-v1",
-  "signature_b64": "S6V99KbKqPb8N4zzUjrD8GJdPedDR7EYE6SfasV/hjGpckuW/OyjXORQKyiHHYqzqyXlW1PMfGtF+H7KNiaVAg=="
+  "signature_b64": "c+/NkQYOXN2jkgEAeN3pV3b+x15c9s8NXjEQ9FEA3LDAFW1DATxgcZIPD0YSEbUf00FQ79ORaurr7x6vmh2eAQ=="
 }

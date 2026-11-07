@@ -4,7 +4,7 @@ Kabul Kontrol ve Olympos Ekran Tanısı için imzalı güncelleme kanalı ve Win
 
 | Uygulama | Sürüm | İndir |
 |---|---|---|
-| Kabul Kontrol | 0.7.0 | [ZIP indir](https://github.com/TraxleAdmin/kabul-kontrol-updates/releases/download/v0.7.0/KabulKontrol-Windows-x64-0.7.0.zip) |
+| Kabul Kontrol | 0.7.1 | [ZIP indir](https://github.com/TraxleAdmin/kabul-kontrol-updates/releases/download/v0.7.1/KabulKontrol-Windows-x64-0.7.1.zip) |
 | Olympos Ekran Tanısı | 0.2.0 | [ZIP indir](https://github.com/TraxleAdmin/kabul-kontrol-updates/releases/download/v0.2.0-probe/Olympos-Ekran-Tanisi-Windows-x64-0.2.0.zip) |
 
 ## İlk kurulum
@@ -33,8 +33,16 @@ Varsayılan kayıt yalnız iki kaynağın kapsamı/alanları onaylanmış ve kar
 
 Belge numarasının önekindeki I/1 veya O/0 şüphesinde bağımsız alan okuması kullanılır. İki okuma uyuşmazsa numara doğrulanmış sayılmaz; kullanıcı incelemesi gerekir. SH1 gibi geçerli bir önek körlemesine SHI yapılmaz.
 
-## 0.7.0 okuma kontrolleri
+## 0.7.1 okuma kontrolleri
 
 Düşük güvenli belge numarası, barkod ve miktar hücreleri hedefli olarak yeniden okunur. Tarihler ilgili etiketin önceliğiyle seçilir; çelişen veya doğrulanamayan değerler bilinmiyor kalır. Geçersiz standart GTIN kontrol rakamı kullanıcı kapsam onayıyla geçerli sayılmaz. Aynı barkod ve birim altındaki farklı ürün adlarının eşit toplamları tek başına uyum kanıtı değildir. İlk OCR güveni ve kanıtı kullanıcı onayından ayrı korunur; güven puanı doğruluk yüzdesi değildir.
 
-569 birim testi ve sağlayıcı/insan onayları simüle edilen 12 yerel Tk senaryosu geçti. Son EXE’de bir işleme ait iki gerçek fotoğrafta önceden belirlenmiş 46 sayı/barkod/tarih alanı doğru okundu. Önceki sürüm de aynı küçük referansta doğruydu; bu kontrol gerileme olmadığını gösterir, genel doğruluk yüzdesini kanıtlamaz. Tam ürün adları ve görünmeyen sayfalar bu ölçüme dahil değildir. Sorun çıkan gerçek belgelerle daha geniş doğrulama gerekir.
+593 birim testi ve sağlayıcı/insan onayları simüle edilen 15 yerel Tk senaryosu geçti. Son EXE’de bir işleme ait iki gerçek fotoğrafta önceden belirlenmiş 46 sayı/barkod/tarih alanı doğru okundu. Önceki sürüm de aynı küçük referansta doğruydu; bu kontrol gerileme olmadığını gösterir, genel doğruluk yüzdesini kanıtlamaz. Tam ürün adları ve görünmeyen sayfalar bu ölçüme dahil değildir. Sorun çıkan gerçek belgelerle daha geniş doğrulama gerekir.
+
+## Otomatik föy düzeltmesi
+
+Föy Alanları'nda firma, kabul tarihi ve kayıt bilgileri düzenlenince mevcut ürün eşleştirmeleri korunur. İki kaynağın kapsamını yeniden onaylayıp Karşılaştır'a basın; kayıt uygunsa günlük dosyaya otomatik yazılır. Sistem No seçiliyken yalnız kullanılmayan Kayıt No alanına ait olduğu doğrulanan uyarılar kayıt engeli değildir. Diğer belirsizliklerin giderilmesi gerekir.
+
+Yazma başarısız olursa neden durum satırında kalır; açık karşılaştırmada ayrıca uyarı gösterilir. Başarı mesajında dosyanın tam yolu bulunur: seçilen klasör/YIL/GG.AA.ods. Ayarları kaydettikten sonra yeni karşılaştırma başlatılmalıdır. Otomatik kaydın açık olması tek başına eksik alan/onay kontrollerini geçersiz yapmaz.
+
+Yerel 15 Tk senaryosunda onaylı ürün eşleştirmesi, föy alanı düzenlemesi, iki kaynağın tekrar onaylanması ve gerçek geçici ODS yazımı birlikte doğrulandı. Tekrar kayıt engeli ve yazma hatasından sonra açık tekrar denemesi geçti. Sağlayıcılar ve insan onayları simüle edildi; gerçek işyeri dosyası ve ekranı ayrıca doğrulanmalıdır.
