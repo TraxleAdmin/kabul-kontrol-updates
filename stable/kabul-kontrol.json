@@ -2,16 +2,16 @@
   "payload": {
     "schema_version": 1,
     "product_id": "kabul-kontrol",
-    "version": "0.7.1",
+    "version": "0.7.2",
     "platform": "windows-x64",
-    "url": "https://github.com/TraxleAdmin/kabul-kontrol-updates/releases/download/v0.7.1/KabulKontrol-Windows-x64-0.7.1.zip",
-    "sha256": "d253941e0bdf2ba8c52af13a9ef118596dbc7a83f79309475f308f77a0009609",
-    "size": 202293263,
-    "exe_sha256": "0a52917ec9305ca65033b1894a23dec5976921a7adb858f15771cf923a632bed",
-    "files_sha256": "d8960f4c4e5c01a6f1ae3f506629f4938ce475ed4004161996a175874edfde2a",
-    "notes": "Otomatik föy: metadata düzenlemesinde ürün eşleştirmeleri korunur, seçilen numara uyarıları doğru değerlendirilir ve yazılmama nedeni ekranda kalır.",
-    "published_at": "2026-11-07T17:22:47.254105+00:00"
+    "url": "https://github.com/TraxleAdmin/kabul-kontrol-updates/releases/download/v0.7.2/KabulKontrol-Windows-x64-0.7.2.zip",
+    "sha256": "f4fe4c32378c3e3ab7dd29056c459399d551f10657a689b0733ba7795e3fe2f0",
+    "size": 202300856,
+    "exe_sha256": "e966e7b215be29076baf81e6c6d995bea43fc4706e3d230fe12689ff27ab261e",
+    "files_sha256": "dd09ee06753bafd5d7fa2be9cf4f2693fb99728391ef65ea371dddc20cc81b96",
+    "notes": "Olympos okuma ve doğrulama odağı tutarlı hale getirildi; kanıtlı iç pencere alanı, kayıt kimliği ve kaydırma konumu birlikte doğrulanır.",
+    "published_at": "2026-11-07T18:37:51.131676+00:00"
   },
   "key_id": "kabul-kontrol-ed25519-v1",
-  "signature_b64": "c+/NkQYOXN2jkgEAeN3pV3b+x15c9s8NXjEQ9FEA3LDAFW1DATxgcZIPD0YSEbUf00FQ79ORaurr7x6vmh2eAQ=="
+  "signature_b64": "fUSsfzz8OpXMVMDOz2agAtmBSlLfyu5SsKuUx0A6OssBG4Hab6zyjGpaKIItTex++Xge8KLwwF+yMfG/5neJCw=="
 }

@@ -4,7 +4,7 @@ Kabul Kontrol ve Olympos Ekran Tanısı için imzalı güncelleme kanalı ve Win
 
 | Uygulama | Sürüm | İndir |
 |---|---|---|
-| Kabul Kontrol | 0.7.1 | [ZIP indir](https://github.com/TraxleAdmin/kabul-kontrol-updates/releases/download/v0.7.1/KabulKontrol-Windows-x64-0.7.1.zip) |
+| Kabul Kontrol | 0.7.2 | [ZIP indir](https://github.com/TraxleAdmin/kabul-kontrol-updates/releases/download/v0.7.2/KabulKontrol-Windows-x64-0.7.2.zip) |
 | Olympos Ekran Tanısı | 0.2.0 | [ZIP indir](https://github.com/TraxleAdmin/kabul-kontrol-updates/releases/download/v0.2.0-probe/Olympos-Ekran-Tanisi-Windows-x64-0.2.0.zip) |
 
 ## İlk kurulum
@@ -46,3 +46,11 @@ Föy Alanları'nda firma, kabul tarihi ve kayıt bilgileri düzenlenince mevcut 
 Yazma başarısız olursa neden durum satırında kalır; açık karşılaştırmada ayrıca uyarı gösterilir. Başarı mesajında dosyanın tam yolu bulunur: seçilen klasör/YIL/GG.AA.ods. Ayarları kaydettikten sonra yeni karşılaştırma başlatılmalıdır. Otomatik kaydın açık olması tek başına eksik alan/onay kontrollerini geçersiz yapmaz.
 
 Yerel 15 Tk senaryosunda onaylı ürün eşleştirmesi, föy alanı düzenlemesi, iki kaynağın tekrar onaylanması ve gerçek geçici ODS yazımı birlikte doğrulandı. Tekrar kayıt engeli ve yazma hatasından sonra açık tekrar denemesi geçti. Sağlayıcılar ve insan onayları simüle edildi; gerçek işyeri dosyası ve ekranı ayrıca doğrulanmalıdır.
+
+## 0.7.2 Olympos görüntü doğrulaması
+
+İlk okumada Kabul Kontrol artık gizlenmez. İlk okuma ve sonraki doğrulama, Olympos'u öne getirmeden aynı hedef pencere yakalama yöntemiyle çalışır. Windows'un geometrisini doğruladığı etkin iç kayıt penceresinde başlık/çerçeve boyası veri değişikliği sayılmaz. OCR yalnız korunan iş alanını okur; bu alandaki pikseller, kayıt kimliği, yerleşim ve kaydırma konumları korunur. Belirsiz geometri, kaynak popup'ı veya üstteki kayıt penceresinin örtüşmesinde tam görüntünün birebir kontrolü sürer. Genel piksel toleransı kullanılmaz.
+
+Doğrulama başarısız olduğunda uyarı, kaydın kesin değiştiğini iddia etmez. Yerel alan okumasının kimlik kontrolü kabul tarihi, firma, kayıt kimlikleri ve satır/ürün kimliklerini de kapsar. Güncelleme sonrasında mevcut kaydı Olympos'u Oku ile yeniden alın.
+
+623 birim testi ve 15 yerel Tk/föy senaryosu geçti. Gerçek Windows/Pillow testinde tamamen örtülü ve pasif sentetik kaynak üç kez aynı okundu; 12→13 miktar değişimi yakalandı. Bu test gerçek Olympos sağlayıcısının veya işyeri bilgisayarının doğrulandığı anlamına gelmez. İş alanı içindeki seçim, kaydırma veya veri değişiklikleri yeniden okuma gerektirebilir.
