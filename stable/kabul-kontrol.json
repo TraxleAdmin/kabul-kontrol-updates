@@ -2,16 +2,16 @@
   "payload": {
     "schema_version": 1,
     "product_id": "kabul-kontrol",
-    "version": "0.5.0",
+    "version": "0.6.0",
     "platform": "windows-x64",
-    "url": "https://github.com/TraxleAdmin/kabul-kontrol-updates/releases/download/v0.5.0/KabulKontrol-Windows-x64-0.5.0.zip",
-    "sha256": "c3dec5b5286d78f194b4d25f7fbf09068168f9f670edcecf530c0aa1e79599b1",
-    "size": 200850105,
-    "exe_sha256": "8f2c39d7cd55dae9ce979ab83e1072823ff20fe8230c97633d5aaf933d1be554",
-    "files_sha256": "b66cdd260704ca8678818efcafb728d46ea2127f4643e76e5e9ce5064490e949",
-    "notes": "",
-    "published_at": "2026-11-07T08:21:09.508716+00:00"
+    "url": "https://github.com/TraxleAdmin/kabul-kontrol-updates/releases/download/v0.6.0/KabulKontrol-Windows-x64-0.6.0.zip",
+    "sha256": "83edca400d7ee75f73bf2187d5e2df580dcca593633a215319f10689b4d5472a",
+    "size": 202276036,
+    "exe_sha256": "d1b73089b3eaef56e3cbdd7faaab013838054bfeba2d61bfa454761c01b4a5cd",
+    "files_sha256": "55e4a08a625f54001108e8da3dad4a643f253781c23ac2a78dba1335928439a3",
+    "notes": "Otomatik günlük föy ve SHI/SH1 alan okuma kontrolü. Föy Ayarları üzerinden çıktı klasörünü seçin.",
+    "published_at": "2026-11-07T14:18:56.434090+00:00"
   },
   "key_id": "kabul-kontrol-ed25519-v1",
-  "signature_b64": "B0DfJW/tkDi5qa8/BECytKftc6FluOvGZBuE5P+NvYHzm//1GRf39wOMD6rPP9BwryBiykmRnR7w/BS9MKpWAg=="
+  "signature_b64": "2SFHi9RAQb49VbDgXobMkFwQgyiiMgjPfjUUBadY50xhZkuVpQZX1ntadTdStXGKscwZF8Bkl9GAPiSeXm+6Dw=="
 }
