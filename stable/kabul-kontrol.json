@@ -1,0 +1,17 @@
+{
+  "payload": {
+    "schema_version": 1,
+    "product_id": "kabul-kontrol",
+    "version": "0.5.0",
+    "platform": "windows-x64",
+    "url": "https://github.com/TraxleAdmin/kabul-kontrol-updates/releases/download/v0.5.0/KabulKontrol-Windows-x64-0.5.0.zip",
+    "sha256": "c3dec5b5286d78f194b4d25f7fbf09068168f9f670edcecf530c0aa1e79599b1",
+    "size": 200850105,
+    "exe_sha256": "8f2c39d7cd55dae9ce979ab83e1072823ff20fe8230c97633d5aaf933d1be554",
+    "files_sha256": "b66cdd260704ca8678818efcafb728d46ea2127f4643e76e5e9ce5064490e949",
+    "notes": "",
+    "published_at": "2026-11-07T08:21:09.508716+00:00"
+  },
+  "key_id": "kabul-kontrol-ed25519-v1",
+  "signature_b64": "B0DfJW/tkDi5qa8/BECytKftc6FluOvGZBuE5P+NvYHzm//1GRf39wOMD6rPP9BwryBiykmRnR7w/BS9MKpWAg=="
+}

@@ -1,0 +1,17 @@
+{
+  "payload": {
+    "schema_version": 1,
+    "product_id": "olympos-probe",
+    "version": "0.2.0",
+    "platform": "windows-x64",
+    "url": "https://github.com/TraxleAdmin/kabul-kontrol-updates/releases/download/v0.2.0-probe/Olympos-Ekran-Tanisi-Windows-x64-0.2.0.zip",
+    "sha256": "b1bd995d34b161cec7e864da938b0985a49a682e6c09c57a07283b9cd2e3e482",
+    "size": 20215928,
+    "exe_sha256": "ea2aa56823dbd813a05150846f59b76148bde53bae0aa4786a4f21e1a03381a3",
+    "files_sha256": "f4f010bd2f7c2f011e0c128e7fcc92a8617418dfc359cf31fe3dc8f3ac485dee",
+    "notes": "",
+    "published_at": "2026-11-07T07:49:18.616942+00:00"
+  },
+  "key_id": "kabul-kontrol-ed25519-v1",
+  "signature_b64": "4sSHsag4NyLyE8rkRmyLozdUe/+3sY2qSUFUb3cXnil1x+wZ/IPkvEEhYqoBApCgB8AptHLWYbYyoRyKqjHuBQ=="
+}
